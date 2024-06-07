@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .logo-medi {
+    color: blue;
+  }
+  
+  .logo-care {
+    color: red;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
