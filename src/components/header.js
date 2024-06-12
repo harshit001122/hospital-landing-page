@@ -2,11 +2,11 @@ import * as React from "react";
 import "./Header.css";
 import img from '../images/taskbg.jpeg';
 import ActionAreaCard from "./Cards/Card";
-import tooth from "../images/tooth.png"
-import lungs from "../images/lungs.png"
-import brain from "../images/brainstorm.png"
-import report from "../images/report-card.png"
-import doctor from "../images/medical-checkup.png"
+import tooth from "../images/tooth.png";
+import lungs from "../images/lungs.png";
+import brain from "../images/brainstorm.png";
+import report from "../images/report-card.png";
+import doctor from "../images/medical-checkup.png";
 import Innovative from "./Innovative/Innovative";
 import Doctors from "./Doctors/Doctors";
 
@@ -37,7 +37,6 @@ const Header = () => (
     </div>
     <div className="innovative-container">
       <Innovative img ={doctor} title="Qualified Doctors"/>
-      {/* <Innovative img ={doctor} title="Qualified Doctors"/> */}
     </div>
 
     <h1  className="doctor">We Have The Best Specialist</h1>
@@ -52,3 +51,4 @@ const Header = () => (
 );
 
 export default Header;
+
